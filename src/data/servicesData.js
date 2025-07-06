@@ -1,81 +1,56 @@
 /* eslint-disable */
-import { BiShoppingBag, BiPencil } from "react-icons/bi";
-import { BsCodeSlash, BsClipboardData } from "react-icons/bs";
-import { AiOutlineMail, AiFillAudio } from "react-icons/ai";
-import { FaInternetExplorer,  FaChalkboardTeacher, FaCameraRetro, FaPinterest, FaVideo, FaTabletAlt, FaRegNewspaper } from "react-icons/fa";
+import { BiCodeAlt, BiServer, BiPaint } from "react-icons/bi";
+import { Gi3DStairs } from "react-icons/gi";
+import { BsCursor } from "react-icons/bs";
+import { RiArticleLine } from "react-icons/ri";
+import { FaSearch, FaTasks, FaLaptopCode } from "react-icons/fa";
 
- 
+
 
 export const servicesData = [
-    // {
-    //     id: 1,
-    //     title: 'Marketing',
-    //     icon: <BiShoppingBag/>
-    // },
+    {
+        id: 1,
+        title: 'Développement Front-end',
+        icon: <BiCodeAlt/>
+    },
     {
         id: 2,
-        title: 'Content Writing',
-        icon: <BiPencil /> 
+        title: 'Développement Back-end',
+        icon: <BiServer /> 
     },
     {
         id: 3,
-        title: 'Email Marketing',
-        icon: <AiOutlineMail />
+        title: 'Web Design',
+        icon: <FaLaptopCode /> 
     },
-    // {
-    //     id: 4,
-    //     title: 'Internet Research',
-    //     icon: <FaInternetExplorer />
-    // },
-    // {
-    //     id: 5,
-    //     title: 'Tutoring',
-    //     icon: <FaChalkboardTeacher />
-    // },
-
+    {
+        id: 4,
+        title: 'Design graphique',
+        icon: <BiPaint />
+    },
+    {
+        id: 5,
+        title: 'Modélisation 3D',
+        icon: <Gi3DStairs />
+    },
     {
         id: 6,
-        title: 'Web Design',
-        icon: <BsCodeSlash />
+        title: 'UX',
+        icon: <BsCursor />
     },
     {
         id: 7,
-        title: 'Photography',
-        icon: <FaCameraRetro />
+        title: 'SEO',
+        icon: <FaSearch />
     },
-    // {
-    //     id: 8,
-    //     title: 'Pinterest Virtual Assistant',
-    //     icon: <FaPinterest />
-    // }, 
+    {
+        id: 8,
+        title: 'Stratégie de contenu',
+        icon: <RiArticleLine />
+    },
     {
         id: 9,
-        title: 'Video Editing',
-        icon: <FaVideo />
-    },
-    // {
-    //     id: 10,
-    //     title: 'Data Entry', 
-    //     icon: <BsClipboardData />
-    // },
-    {
-        id: 11,
-        title: 'Ebook Writing',
-        icon: <FaTabletAlt />
-    },
-    // {
-    //     id: 12,
-    //     title: 'Audio Transcription',
-    //     icon: <AiFillAudio />
-    // },
-    {
-        id: 13,
-        title: 'Blog Posting',
-        icon: <FaRegNewspaper />
-    },
-
+        title: 'Gestion de projet',
+        icon: <FaTasks />
+    }
 ]
-
-// Uncomment your required service.
-// Couldn't find the required services? Raise an issue on github at https://github.com/hhhrrrttt222111/developer-portfolio/issues/new
-// You can also add on your own 😉.

@@ -1,9 +1,9 @@
-import resume from '../assets/pdf/resume.pdf'
+import resume from '../assets/pdf/CV KHANINA Daria.pdf'
 
 export const headerData = {
-    name: 'Sreerag Rajan',
-    title: "Web Developer",
-    desciption:"Life may be a meandering path but don't worry about it, rather enjoy it. It is about the journey, not the destination so explore all that comes your way, learn and grow from it, for this journey only happens once.",
-    image: 'https://avatars.githubusercontent.com/u/85482640?v=4',
+    name: 'Daria KHANINA',
+    title: "Développeur web",
+    desciption:"Polyvalente, je maîtrise le développement, le design, le SEO et les stratégies digitales. À la recherche d’une alternance (contrat de professionnalisation).",
+    image: 'https://i.imgur.com/eXXMzBF.jpeg',
     resumePdf: resume
 }

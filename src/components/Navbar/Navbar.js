@@ -3,6 +3,7 @@ import { NavHashLink as NavLink } from 'react-router-hash-link';
 import Fade from 'react-reveal/Fade';
 import { IoMenuSharp, IoHomeSharp } from 'react-icons/io5';
 import { HiDocumentText } from 'react-icons/hi';
+import { FaBriefcase } from 'react-icons/fa';
 import { BsFillGearFill } from 'react-icons/bs';
 import { MdPhone } from 'react-icons/md';
 import { FaUser, FaFolderOpen } from 'react-icons/fa';
@@ -109,10 +110,10 @@ function Navbar() {
         drawerLinks: {
             fontFamily: 'var(--primaryFont)',
             width: '50%',
-            fontSize: '1.3rem',
+            fontSize: '0.9rem',
             fontWeight: 600,
             [t.breakpoints.down('sm')]: {
-                fontSize: '1.125rem',
+                fontSize: '0.7rem',
             },
         },
         drawerIcon: {
@@ -193,7 +194,7 @@ function Navbar() {
                                         className={classes.drawerIcon}
                                     />
                                     <span className={classes.drawerLinks}>
-                                        Home
+                                        Accueil
                                     </span>
                                 </div>
                             </NavLink>
@@ -201,7 +202,7 @@ function Navbar() {
 
                         <Fade left>
                             <NavLink
-                                to='/#about'
+                                to='/#apropos'
                                 smooth={true}
                                 spy='true'
                                 duration={2000}
@@ -209,7 +210,7 @@ function Navbar() {
                                 <div className={classes.drawerItem}>
                                     <FaUser className={classes.drawerIcon} />
                                     <span className={classes.drawerLinks}>
-                                        About
+                                        À propos
                                     </span>
                                 </div>
                             </NavLink>
@@ -217,7 +218,7 @@ function Navbar() {
 
                         <Fade left>
                             <NavLink
-                                to='/#education'
+                                to='/#formation'
                                 smooth={true}
                                 spy='true'
                                 duration={2000}
@@ -227,7 +228,7 @@ function Navbar() {
                                         className={classes.drawerIcon}
                                     />
                                     <span className={classes.drawerLinks}>
-                                        Education
+                                        Formation
                                     </span>
                                 </div>
                             </NavLink>
@@ -235,7 +236,25 @@ function Navbar() {
 
                         <Fade left>
                             <NavLink
-                                to='/#skills'
+                                to='/#experience'
+                                smooth={true}
+                                spy='true'
+                                duration={2000}
+                            >
+                                <div className={classes.drawerItem}>
+                                    <FaBriefcase
+                                        className={classes.drawerIcon}
+                                    />
+                                    <span className={classes.drawerLinks}>
+                                        Experience
+                                    </span>
+                                </div>
+                            </NavLink>
+                        </Fade>
+
+                        <Fade left>
+                            <NavLink
+                                to='/#compétences'
                                 smooth={true}
                                 spy='true'
                                 duration={2000}
@@ -245,7 +264,7 @@ function Navbar() {
                                         className={classes.drawerIcon}
                                     />
                                     <span className={classes.drawerLinks}>
-                                        Skills
+                                        Compétences
                                     </span>
                                 </div>
                             </NavLink>
@@ -253,7 +272,7 @@ function Navbar() {
 
                         <Fade left>
                             <NavLink
-                                to='/#projects'
+                                to='/#projets'
                                 smooth={true}
                                 spy='true'
                                 duration={2000}
@@ -263,7 +282,7 @@ function Navbar() {
                                         className={classes.drawerIcon}
                                     />
                                     <span className={classes.drawerLinks}>
-                                        Projects
+                                        Projets
                                     </span>
                                 </div>
                             </NavLink>
@@ -271,7 +290,7 @@ function Navbar() {
 
                         <Fade left>
                             <NavLink
-                                to='/#contacts'
+                                to='/#contact'
                                 smooth={true}
                                 spy='true'
                                 duration={2000}

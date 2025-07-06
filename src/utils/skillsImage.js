@@ -1,16 +1,20 @@
 import gcp from '../assets/svg/skills/gcp.svg'
 import html from '../assets/svg/skills/html.svg'
+import nodejs from '../assets/svg/skills/nodejs.svg'
 import photoshop from '../assets/svg/skills/photoshop.svg'
 import illustrator from '../assets/svg/skills/illustrator.svg'
 import docker from '../assets/svg/skills/docker.svg'
 import adobeXd from '../assets/svg/skills/adobe-xd.svg'
 import afterEffects from '../assets/svg/skills/after-effects.svg'
+import indesign from '../assets/svg/skills/indesign.svg'
 import css from '../assets/svg/skills/css.svg'
+import symfony from '../assets/svg/skills/symfony.svg'
 import angular from '../assets/svg/skills/angular.svg'
 import javascript from '../assets/svg/skills/javascript.svg'
 import nextJS from '../assets/svg/skills/nextJS.svg'
 import nuxtJS from '../assets/svg/skills/nuxtJS.svg'
 import react from '../assets/svg/skills/react.svg'
+import sass from '../assets/svg/skills/sass.svg'
 import svelte from '../assets/svg/skills/svelte.svg'
 import typescript from '../assets/svg/skills/typescript.svg'
 import vue from '../assets/svg/skills/vue.svg'
@@ -32,6 +36,8 @@ import dart from '../assets/svg/skills/dart.svg'
 import go from '../assets/svg/skills/go.svg'
 import java from '../assets/svg/skills/java.svg'
 import julia from '../assets/svg/skills/julia.svg'
+import jira from '../assets/svg/skills/jira.svg'
+import confluence from '../assets/svg/skills/confluence.svg'
 import kotlin from '../assets/svg/skills/kotlin.svg'
 import matlab from '../assets/svg/skills/matlab.svg'
 import php from '../assets/svg/skills/php.svg'
@@ -72,7 +78,7 @@ import picsart from '../assets/svg/skills/picsart.svg'
 import sketch from '../assets/svg/skills/sketch.svg'
 import unity from '../assets/svg/skills/unity.svg'
 import wolframalpha from '../assets/svg/skills/wolframalpha.svg'
-
+import sapERP from '../assets/svg/skills/sap-erp.svg'
 import canva from '../assets/svg/skills/canva.svg'
 
 
@@ -83,6 +89,8 @@ export const skillsImage = (skill) => {
             return gcp;
         case 'html':
             return html;
+        case 'nodejs':
+            return nodejs;
         case 'photoshop':
             return photoshop;
         case 'docker':
@@ -93,8 +101,12 @@ export const skillsImage = (skill) => {
             return adobeXd;
         case 'after effects':
             return afterEffects;
+        case 'after indesign':
+            return indesign;    
         case 'css':
             return css;
+        case 'symfony':
+            return symfony;
         case 'angular':
             return angular;
         case 'javascript':
@@ -105,6 +117,8 @@ export const skillsImage = (skill) => {
             return nuxtJS;
         case 'react':
             return react;
+        case 'sass':
+            return sass;   
         case 'svelte':
             return svelte;
         case 'typescript':
@@ -149,6 +163,10 @@ export const skillsImage = (skill) => {
             return kotlin;
         case 'julia':
             return julia;
+        case 'jira':
+            return jira;
+        case 'confluence':
+            return confluence;   
         case 'matlab':
             return matlab;
         case 'php':
@@ -227,6 +245,8 @@ export const skillsImage = (skill) => {
             return wolframalpha;
         case 'canva':
             return canva;
+        case 'sap erp':
+            return sapERP;
         default:
             break;
     }

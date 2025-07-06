@@ -34,7 +34,7 @@
     align-items:flex-start;
     justify-content: flex-start;
     width: 90%;
-    height: 140px;
+    height: 160px;
     padding: 1.5rem;
     border-radius: 20px;
     margin-bottom: 1.5rem;
@@ -68,13 +68,13 @@
 
 .education-details > h4 {
     font-family: var(--primaryFont);
-    font-size: 1.225rem;
+    font-size: 1.2rem;
     font-weight: 600;
 }
 
 .education-details > h5 {
     font-family: var(--primaryFont);
-    font-size: 1.15rem;
+    font-size: 1rem;
     font-weight: 600;
 }
 
@@ -161,10 +161,16 @@
     .education-description > h1{
         font-size: 2.5rem;
     }
+
+    .education-card {
+        height: 170px;
+    } 
 }
 
 @media screen and (max-width: 400px) {
-
+    .education-card {
+        height: 200px;
+    }
 }
   
 @media only screen and (min-device-width: 320px) and (max-device-width: 

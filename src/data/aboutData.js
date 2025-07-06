@@ -1,6 +1,7 @@
 export const aboutData = {
-    title: "Who I am",
-    description1: "Hello! My name is Sreerag Rajan. I'm an aspiring web developer based in India.",
-    description2: "I am a student at Masai School, currently learning Fullstack Web-Development. A project that I worked on towards the end of my Master’s in History set me on this path of a web developer. The project involved looking at movies on historical themes that could be considered as an educational tool. The website was not the focus of the project, but working on it was such a thrilling experience that a career in this felt like a right fit. Other than this I am a bibliophile, who not just loves reading books but also buying and maintaining a personal library.",
-    image: 2
+    title: "Qui suis-je ?",
+    description1: "Bonjour ! Je m’appelle Daria. Je suis actuellement étudiante de BUT Métiers du Multimédia et de l’Internet à l’IUT de Haguenau, où j’apprends le Développement Web Fullstack 💻",
+    description2: "Mon parcours dans le domaine de l’IT a commencé en 2019, par la gestion de projets informatiques. C’est en travaillant au plus près des développeurs que j’ai découvert cet univers et que j’ai eu envie d’évoluer vers le développement web. Depuis, je me forme pour me réorienter pleinement dans ce domaine qui me passionne.",
+    description3: "En dehors de l’informatique, la musique occupe une place importante dans ma vie : j’aime non seulement l’écouter, mais aussi la pratiquer moi-même 🎸🎹",
+    image: 1
 }

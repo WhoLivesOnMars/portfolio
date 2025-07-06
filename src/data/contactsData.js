@@ -1,7 +1,7 @@
 export const contactsData = {
-    email: 'sreerag.rajan5@gmail.com',
-    phone: '+91 9663437669',
-    address: '412 Ground Floor, Indraprastha Colony, Sector 30-33, Faridabad, Haryana, 121003',
+    email: 'daria.khanina@etu.unistra.fr',
+    phone: '+33 6 24 89 48 58',
+    address: '2a rue du Luhberg, 67240 Bischwiller, France',
 
     sheetAPI: ''
 }

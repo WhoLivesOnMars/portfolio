@@ -60,7 +60,6 @@
     align-items: flex-start;
     justify-content: space-around;
     width: 65%;
-   
 }
 
 .achievecard-details2 {
@@ -76,14 +75,16 @@
 }
 
 .achievecard-details2 h5 {
-   width: 50%;
+    width: 70%;
+    word-break: break-word;
 }
 
 .achievecard-field {
-    width: 50%;
+    width: 100%;
     display: flex;
     flex-direction: row;
     align-items: center;
+    box-sizing: border-box;
 }
 
 .achievecard-field svg {
@@ -112,6 +113,7 @@
     width: 150px;
     height: 130px;
     border-radius: 10px;
+    object-fit: contain;
 }
 
 @media (min-width: 992px) and (max-width: 1380px) {
@@ -233,6 +235,10 @@
         width: 70px;
         height: 60px;
     }
-
 }
 
+@media screen and (max-width: 400px) {
+    .achievecard-details2 h5 {
+        font-size: 0.7rem;
+    }
+}

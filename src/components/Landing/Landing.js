@@ -9,11 +9,8 @@ import { headerData } from '../../data/headerData';
 import { socialsData } from '../../data/socialsData';
 
 import {
-    FaTwitter,
     FaLinkedin,
-    FaGithub,
-    FaYoutube,
-    FaBlogger,
+    FaGithub
 } from 'react-icons/fa';
 
 function Landing() {
@@ -26,7 +23,7 @@ function Landing() {
             textTransform: 'inherit',
             textDecoration: 'none',
             width: '150px',
-            fontSize: '1rem',
+            fontSize: '0.8rem',
             fontWeight: '500',
             height: '50px',
             fontFamily: 'var(--primaryFont)',
@@ -49,7 +46,7 @@ function Landing() {
             textDecoration: 'none',
             width: '150px',
             height: '50px',
-            fontSize: '1rem',
+            fontSize: '0.8rem',
             fontWeight: '500',
             fontFamily: 'var(--primaryFont)',
             border: `3px solid ${theme.primary}`,
@@ -101,45 +98,6 @@ function Landing() {
                                 />
                             </a>
                         )}
-                        {/* {socialsData.twitter && (
-                            <a
-                                href={socialsData.twitter}
-                                target='_blank'
-                                rel='noreferrer'
-                            >
-                                <FaTwitter
-                                    className='landing--social'
-                                    style={{ color: theme.secondary }}
-                                    aria-label='Twitter'
-                                />
-                            </a>
-                        )}
-                        {socialsData.youtube && (
-                            <a
-                                href={socialsData.youtube}
-                                target='_blank'
-                                rel='noreferrer'
-                            >
-                                <FaYoutube
-                                    className='landing--social'
-                                    style={{ color: theme.secondary }}
-                                    aria-label='YouTube'
-                                />
-                            </a>
-                        )}
-                        {socialsData.blogger && (
-                            <a
-                                href={socialsData.blogger}
-                                target='_blank'
-                                rel='noreferrer'
-                            >
-                                <FaBlogger
-                                    className='landing--social'
-                                    style={{ color: theme.secondary }}
-                                    aria-label='Blogger'
-                                />
-                            </a>
-                        )} */}
                     </div>
                 </div>
                 <img
@@ -167,17 +125,17 @@ function Landing() {
                             {headerData.resumePdf && (
                                 <a
                                     href={headerData.resumePdf}
-                                    download='resume'
+                                    download='CV KHANINA Daria'
                                     target='_blank'
                                     rel='noreferrer'
                                 >
                                     <Button className={classes.resumeBtn}>
-                                        Download CV
+                                        Télécharger le CV
                                     </Button>
                                 </a>
                             )}
                             <NavLink
-                                to='/#contacts'
+                                to='/#contact'
                                 smooth={true}
                                 spy='true'
                                 duration={2000}
@@ -189,6 +147,10 @@ function Landing() {
                         </div>
                     </div>
                 </div>
+            </div>
+            <div className="scroll-down-indicator">
+                <span className="arrow"></span>
+                <span className="arrow"></span>
             </div>
         </div>
     );

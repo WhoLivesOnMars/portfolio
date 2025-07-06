@@ -25,6 +25,10 @@
     padding: 1rem;
 }
 
+.service-content > h4 {
+    width: 6rem;
+}
+
 .service-icon {
     position: absolute;
     top: 15%;
